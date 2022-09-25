@@ -1,0 +1,28 @@
+*{
+    margin: 2;
+    box-sizing: border-box;
+    background-color:darkgrey;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    border: 1px solid red;
+}
+input {
+    width: 100%;
+    margin-bottom: 3px;
+    height: 3rem;
+    border: 1px solid red;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+    border:2px red;
+}
+/* button{
+    /* border: none; */
+
