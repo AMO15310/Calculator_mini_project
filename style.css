@@ -1,20 +1,35 @@
 *{
-    margin: 2;
+    margin: 0;
     box-sizing: border-box;
     background-color:darkgrey;
 }
 
 .buttons{
+    /* height:  */
+    margin-top: 0.5rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    border: 1px solid red;
+    /* border: 1px solid black; */
+}
+.content{
+    width: 250px;
+    border: 1px solid #000000;
+    padding: 0.5rem 0.5rem 1rem ;
 }
 input {
+    display: flex;
+    /* justify-items: flex-end; */
+    /* justify-content: space-around; */
+    /* float: ; */
+    /* align-content: space-between; */
     width: 100%;
     margin-bottom: 3px;
     height: 3rem;
-    border: 1px solid red;
+    color: #fff;
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: right;
 }
 .container{
     display: flex;
@@ -25,4 +40,79 @@ input {
 }
 /* button{
     /* border: none; */
+.button1{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button2{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button3{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button4{
+    background-color: rgba(17, 151, 209, 0.387);
+}
+.button5{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button6{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button7{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button8{
+    background-color: rgba(17, 151, 209, 0.387);
+}
+.button9{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button0{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button11{
+    background-color: rgba(17, 151, 209, 0.387);
+}
+.button12{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+.button13{
+    background-color: rgba(17, 151, 209, 0.387);
+}
+.button14{
+    background-color: rgba(17, 151, 209, 0.387);
+}
+.button15{
+    background-color: rgba(17, 151, 209, 0.387);
+}
+/* .button16{ */
+    /* background-color: rgba(141, 161, 9, 0); */
+    /* color: red; */
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
 
+/* } */
+.button17{
+    background-color: rgba(45, 57, 62, 0.468);
+}
+button{
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    color: #fff;
+}
+.lastbtn{
+    display: flex;
+    margin-top: 0.7rem;
+}
+.lastbtn button{
+    /* border: 1px solid ; */
+    height: 2.5rem;
+    background-color: grey;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+}

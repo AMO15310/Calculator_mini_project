@@ -13,30 +13,34 @@
     <div class="container">
         <div class="content">
             <div class="input">
-                <input type="text">
+                <input type="text" placeholder="0" value="" id="userInput" readonly>
 
             </div>
             <div class="buttons">
-                <button class="button">
+                <button class="button1" onclick="press(1)">
                     1
-                </button class="button">
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button">0</button>
-                <button class="button">*</button>
-                <button class="button">C</button>
-                <button class="button">+</button>
-                <button class="button">-</button>
-                <button class="button">/</button>
-                <button class="button">=</button>
-
+                </button>
+                <button class="button2" onclick="press(2)">  2</button>
+                <button class="button3" onclick="press(3)">3</button>
+                <button class="button4" onclick="press('+')">+</button>
+                <button class="button5" onclick="press(4)">4</button>
+                <button class="button6" onclick="press(5)">5</button>
+                <button class="button7" onclick="press(6)">6</button>
+                <button class="button8" onclick="press('-')">-</button>
+                <button class="button9" onclick="press(7)">7</button>
+                <button class="button0" onclick="press(8)">8</button>
+                <button class="button17" onclick="press(9)">9</button>
+                <button class="button11" onclick="press('*')">*</button>
+                <button class="button12" onclick="press(0)">0</button>
+                <button class="button13" onclick="press('.')">.</button>
+                <button class="button14" onclick="erase()">C</button>
+                <button class="button15" onclick="press('/')">/</button>
             </div>
+            <!-- <button class="button18" onclick="singleErase()">X</button> -->
+            <div class="lastbtn">
+                <button class="button16" onclick="solve()">=</button>
+            </div>
+
 
 
 
